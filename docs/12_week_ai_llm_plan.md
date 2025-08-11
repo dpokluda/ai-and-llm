@@ -31,7 +31,7 @@ Goal: Build a strong base in ML, neural networks, and transformers.
 * **Resources**
 
   * [Machine Learning Crash Course (Google)](https://developers.google.com/machine-learning/crash-course)
-  * [CS229 Lecture Notes (Stanford)](https://cs229.stanford.edu/syllabus.html) — skim Sections 1–3
+  * [CS229 Lecture Notes (Stanford)](https://cs229.stanford.edu/main_notes.pdf) — skim Sections 1–3
 * **Hands-On**
 
   * Implement a linear regression and logistic regression from scratch (NumPy)
