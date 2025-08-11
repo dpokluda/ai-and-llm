@@ -1,0 +1,30 @@
+# Core
+numpy
+pandas
+scikit-learn
+matplotlib
+
+# Deep learning & NLP
+torch
+transformers
+datasets
+accelerate
+sentencepiece
+tiktoken
+
+# Parameter-efficient finetuning & quantization (optional)
+peft
+bitsandbytes
+
+# RAG & orchestration
+faiss-cpu
+langchain
+openai
+
+# Serving
+fastapi
+uvicorn[standard]
+pydantic
+
+# Testing & eval (lightweight)
+pytest
