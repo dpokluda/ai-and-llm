@@ -28,31 +28,34 @@ Link: [source](https://developers.google.com/machine-learning/crash-course/linea
 
 *Linear regression* is a statistical technique used to find the relationship between variables. In an ML context, linear regression finds the relationship between *features* and a *label*.
 
-If we have single feature then it is as simple as plotting points `[f, l]` (where `f` is feature on x-axis and `l` is label value on y-axis) and drawing a line that approximates the points. In general in math the line is defined as: 
+If we have single feature then it is as simple as plotting points $[f, l]$ (where $f$ is feature on $x$-axis and $l$ is label value on $y$-axis) and drawing a line that approximates the points. In general in math the line is defined as: 
+
 $$
 y = mx + b
 $$
-where
 
-* *y* is the label (output) value
-* *m* is slope of the line
-* *x* is feature (input) value
-* *b* is the y-intercept
+where:
+* $y$ is the label (output) value
+* $m$ is slope of the line
+* $x$ is feature (input) value
+* $b$ is the $y$-intercept
 
 In ML, we write the equation for a linear regression model as follows:
+
 $$
 y' = b + w_1x_1
 $$
-where
 
-* *y'* is the predicted label - the output
-* *b* is *bias* of the model; it is sometimes also referred to as *w_0*
-* *w_1* is the *weight* of the feature
-* *x_1* is a feature - the input
+where:
+* $y'$ is the predicted label - the output
+* $b$ is *bias* of the model; it is sometimes also referred to as $w_0$
+* $w_1$ is the *weight* of the feature
+* $x_1$ is a feature - the input
 
 ##### Model with multiple features
 
-a more sophisticated model might rely on multiple features, each having a separate weight (, , etc.). For example, a model that relies on five features would be written as follows:
+a more sophisticated model might rely on multiple features, each having a separate weight. For example, a model that relies on five features would be written as follows:
+
 $$
 y' = b + w_1x_1 + w_2x_2 + w_3x_3 + w_4x_4 + w_5x_5
 $$
