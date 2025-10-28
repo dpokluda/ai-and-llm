@@ -60,6 +60,31 @@ $$
 y' = b + w_1x_1 + w_2x_2 + w_3x_3 + w_4x_4 + w_5x_5
 $$
 
+#### Loss
+
+**Loss** is a numerical metric that describes how wrong a model's **predictions** are. Loss measures the distance between the model's predictions and the actual labels. The goal of training a model is to minimize the loss, reducing it to its lowest possible value.
+
+Types of loss:
+- **$L_1$ loss**: The sum of the absolute values of the difference between the predicted values and the actual values.	
+- **Mean absolute error (MAE)**: The average of L1 losses across a set of *N* examples.	
+- **$L_2$ loss**: The sum of the squared difference between the predicted values and the actual values.	
+- **Mean squared error (MSE)**: The average of L2 losses across a set of *N* examples.
+
+#### Gradient Descent
+
+**Gradient Descent** is a mathematical technique that iteratively finds the weights and bias that produce the model with the lowest loss. Gradient descent finds the best weight and bias by repeating the following process for a number of user-defined iterations.
+
+#### Hyperparameters
+
+**Hyperparameters** are variables that control different aspects of training. Three common hyperparameters are:
+
+- **Learning rate**: is a floating point number you set that influences how quickly the model converges. If the learning rate is too low, the model can take a long time to converge. 
+
+- **Batch size**: is a hyperparameter that refers to the number of examples the model processes before updating its weights and bias. You might think that the model should calculate the loss for every example in the dataset before updating the weights and bias. However, when a dataset contains hundreds of thousands or even millions of examples, using the full batch isn't practical.
+
+- **Epochs**: During training, an epoch means that the model has processed every example in the training set once. For example, given a training set with 1,000 examples and a mini-batch size of 100 examples, it will take the model 10 iterations to complete one epoch.
+
+In contrast, parameters are the variables, like the weights and bias, that are part of the model itself. In other words, hyperparameters are values that you control; parameters are values that the model calculates during training.
 
 ## Resources
 
